@@ -1,0 +1,8 @@
+-------------------------------------------------------------------------------
+Test set: admin.BWS1_Logins
+-------------------------------------------------------------------------------
+Tests run: 1, Failures: 1, Errors: 0, Skipped: 0, Time elapsed: 28.422 s <<< FAILURE! - in admin.BWS1_Logins
+admin.BWS1_Logins.Login  Time elapsed: 27.3 s  <<< FAILURE!
+java.io.IOException: Destination 'F:\Brandscape\BrandscapeAutomation\SS' directory cannot be created
+	at admin.BWS1_Logins.Login(BWS1_Logins.java:48)
+

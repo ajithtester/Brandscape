@@ -1,0 +1,22 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "https://testng.org/testng-1.0.dtd">
+<suite name="Suite">
+	<test thread-count="5" name="Test">
+		<classes>
+
+			<class name="superAdmin.BWS1_Login" />
+			<class name="superAdmin.BWS2_AddAdmin" />
+			<class name="superAdmin.BWS3_ViewAdmin" />
+			<class name="superAdmin.BWS4_EditAdmin" />
+			<class name="superAdmin.BWS5_SearchAdmin" />
+			<class name="superAdmin.BWS6_AddProjects" />
+			<class name="superAdmin.BWS7_ViewProject" />
+			<class name="superAdmin.BWS8_SearchProject" />
+			<class name="superAdmin.BWS9_FilterProject" />
+			<class name="superAdmin.BWS901_FilterAdmin" />
+			<class name="superAdmin.BWS902_Message" />
+			<class name="superAdmin.BWS903_Logout" />
+
+		</classes>
+	</test> <!-- Test -->
+</suite> <!-- Suite -->
