@@ -42,8 +42,8 @@ import io.github.bonigarcia.wdm.WebDriverManager;
 public class BaseClass {
 	static WebDriver driver;
 	static java.util.List<WebElement> row;
-	static String XpathFileLocation = "C:\\Users\\ajithkumar.j\\Desktop\\Optisol_Work\\BWS_Automation\\Brandscape_Automation\\xPath\\try.properties";
-	static String SuperAdminExcelLocation = "C:\\Users\\ajithkumar.j\\Desktop\\Optisol_Work\\BWS_Automation\\Brandscape_Automation\\BrandscapeExcel\\SuperAdmin.xlsx";
+	static String XpathFileLocation = "./xPath/try.properties";
+	static String SuperAdminExcelLocation = "./BrandscapeExcel/SuperAdmin.xlsx";
 	static String AdminExcelLocation = "C:\\Users\\ajithkumar.j\\Desktop\\Optisol_Work\\BWS_Automation\\Brandscape_Automation\\BrandscapeExcel\\Admin.xlsx";
 	static String ClientExcelLocation =  "F:\\Brandscape\\BrandscapeAutomation\\BrandscapeExcel\\Client.xlsx";
 	static String EnUserExcelLocation	= "F:\\Brandscape\\BrandscapeAutomation\\BrandscapeExcel\\EndUser.xlsx";

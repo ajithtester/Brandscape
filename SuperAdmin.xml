@@ -6,15 +6,6 @@
 
 			<class name="superAdmin.BWS1_Login" />
 			<class name="superAdmin.BWS2_AddAdmin" />
-			<class name="superAdmin.BWS3_ViewAdmin" />
-			<class name="superAdmin.BWS4_EditAdmin" />
-			<class name="superAdmin.BWS5_SearchAdmin" />
-			<class name="superAdmin.BWS6_AddProjects" />
-			<class name="superAdmin.BWS7_ViewProject" />
-			<class name="superAdmin.BWS8_SearchProject" />
-			<class name="superAdmin.BWS9_FilterProject" />
-			<class name="superAdmin.BWS901_FilterAdmin" />
-			<class name="superAdmin.BWS902_Message" />
 			<class name="superAdmin.BWS903_Logout" />
 
 		</classes>
