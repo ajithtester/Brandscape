@@ -45,7 +45,7 @@ public class BWS1_Login extends BaseClass {
 			LogInfo("Superadmin log in failed");
 		}
 		Thread.sleep(2000);
-		TakeScreenshot("\\Login.png");
+		TakeScreenshot("\\Login1.png");
 
 	}
 

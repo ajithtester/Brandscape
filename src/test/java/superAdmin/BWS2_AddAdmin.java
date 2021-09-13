@@ -42,7 +42,7 @@ Thread.sleep(3000);
 		}
 		
 		Thread.sleep(2000);
-		TakeScreenshot("\\AddAdmin.png");
+		TakeScreenshot("\\AddAdmin1.png");
 
 	}
 }

@@ -444,8 +444,8 @@ public class BaseClass {
 	public static void TakeScreenshot(String Location) throws Throwable {
 
 		File SrcFile = ((TakesScreenshot)driver).getScreenshotAs(OutputType.FILE);
-		FileUtils.copyFile(SrcFile, new File("F:\\Brandscape\\BrandscapeAutomation\\SS"+Location));
-		String SS = "F:\\Brandscape\\BrandscapeAutomation\\SS"+Location;
+		FileUtils.copyFile(SrcFile, new File("C:\\Users\\ajithkumar.j\\Desktop\\Optisol_Work\\Auto\\test.azure\\SS"+Location));
+		String SS = "C:\\Users\\ajithkumar.j\\Desktop\\Optisol_Work\\Auto\\test.azure\\SS"+Location;
 		extenttest.addScreenCaptureFromPath(SS);
 	}
 
